@@ -1,6 +1,6 @@
-## This code cacehes a matrix and its inverse
+## This code introduces caching within R
 
-## makeCacheMatrix caches a matrix and has methods that set a matrix inverse and get a stored matrix inverse
+## makeCacheMatrix caches a matrix and can set a matrix inverse and get a stored matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
